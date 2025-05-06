@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    font-family: "Inter",sans-serif;
+    background-color: #D5D4D8;
+    color: white;
+    width: 34%;
+    text-align: center;
+}
+
+.firstBlock {
+    margin-top: 30px;
+    padding: 20px;  
+    background-color:#6943FF;
+}
+
+.firstBlock h1 {
+    font-weight: 800;
+}
+
+/* input, button, and textarea elements do not automatically inherit font-family */
+
+#input-el {
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(178, 149, 255, 1);
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    background-color:#6943FF;
+}
+
+/* remove input spinners[input type=number] */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#convert-btn {
+    /*center button, first 3 elements*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.secondBlock {
+    padding: 5px;
+    font-size:large;
+    font-weight: bold;
+    background-color:#273549;   
+}
+
+.subBlock {
+    margin: 40px;
+    padding: 20px;
+    color: #CCC1FF;
+    background-color:rgb(53,72,99);
+}
+
+.subBlock h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subBlock p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1)
+}
